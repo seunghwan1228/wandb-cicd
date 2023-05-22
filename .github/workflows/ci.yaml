@@ -1,0 +1,18 @@
+name: Github Action Demo
+
+on: [push]
+
+jobs:
+  Explore-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+      - run : echo "Hello World"
+
+      - name: Checkout
+        uses: actions/checkout@v2
+      
+      - name: Identify
+      - run: echo "The name of branch is ${{ github.ref }} and repository name is ${{ github.repository }}"
+
+      
