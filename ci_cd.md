@@ -39,3 +39,5 @@ the deploy action will deploy to gcp-cloud-function
 
 
 
+## Store Secret to Repo, not as code
+github -> setting  -> secrets and variables -> actions
