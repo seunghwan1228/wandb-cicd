@@ -1,0 +1,22 @@
+name: Github Action check Wandb
+
+on: [push]
+
+jobs:
+  Explore-Github-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello
+        run : echo "Hello World"
+
+      - name: Identify
+        run: echo "The name of branch is ${{ github.ref }} and repository name is ${{ github.repository }}"
+
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+
+      - name: run python script
+        run : |
+          pip install -r requirements.txt
+          python ci.py
