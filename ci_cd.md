@@ -52,3 +52,9 @@ github -> setting  -> secrets and variables -> actions
 ## Basic Boilerplate (Setting up Dev environment)
   1. actions/checkout@v3
   2. pip install environment
+
+
+## Emit Output from github action steps
+  https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs
+
+  
