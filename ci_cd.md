@@ -41,3 +41,8 @@ the deploy action will deploy to gcp-cloud-function
 
 ## Store Secret to Repo, not as code
 github -> setting  -> secrets and variables -> actions
+
+
+## Github Action Triggers
+- pull_request (PR)
+  - PR and Issue (Github contributes PR = Issue)
