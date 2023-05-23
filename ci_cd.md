@@ -46,3 +46,9 @@ github -> setting  -> secrets and variables -> actions
 ## Github Action Triggers
 - pull_request (PR)
   - PR and Issue (Github contributes PR = Issue)
+  - workflow_dispatch = manually trigger workflow available
+
+
+## Basic Boilerplate (Setting up Dev environment)
+  1. actions/checkout@v3
+  2. pip install environment
