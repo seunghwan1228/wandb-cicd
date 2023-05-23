@@ -3,7 +3,7 @@ name: Github Action check Wandb
 on: [push]
 
 jobs:
-  Explore-Github-Actions:
+  my-first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Hello
